@@ -64,7 +64,7 @@ def main():
     st.title("🎓 Students 5G Club")
 
     # Menu
-    menu = ["Login", "Register"]
+    menu = ["Register", "Login"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == "Register":
